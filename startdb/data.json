@@ -1,0 +1,101 @@
+[
+	{
+		"id": "OVQ01IDT7GK",
+		"name": "natoque penatibus",
+		"description": "at, velit. Pellentesque ultricies dignissim lacus. Aliquam rutrum lorem ac",
+		"latitude": "52.54232",
+		"longitude": "-169.03103",
+		"profesorEmail": "Ut.tincidunt.orci@sedpedeCum.ca",
+		"price": "8",
+		"likes": 3,
+		"tags": "arcu iaculis enim, sit"
+	},
+	{
+		"id": "UZW88HLW9NL",
+		"name": "elit, dictum",
+		"description": "porttitor scelerisque neque. Nullam nisl. Maecenas malesuada fringilla est. Mauris",
+		"latitude": "-14.91306",
+		"longitude": "40.64469",
+		"profesorEmail": "Donec.fringilla.Donec@mauriseuelit.org",
+		"price": "12",
+		"likes": 2,
+		"tags": "ut, molestie"
+	},
+	{
+		"id": "DXT68JAN1LT",
+		"name": "purus ac",
+		"description": "enim. Suspendisse aliquet, sem ut cursus luctus, ipsum leo elementum",
+		"latitude": "-6.28038",
+		"longitude": "68.81779",
+		"profesorEmail": "interdum.Nunc@aliquetmagna.net",
+		"price": "5",
+		"likes": 6,
+		"tags": "libero. Morbi"
+	},
+	{
+		"id": "GLO61RUJ8GE",
+		"name": "augue, eu",
+		"description": "volutpat. Nulla dignissim. Maecenas ornare egestas ligula. Nullam feugiat placerat",
+		"latitude": "78.67306",
+		"longitude": "-149.9615",
+		"profesorEmail": "eu@pede.org",
+		"price": "9",
+		"likes": 1,
+		"tags": "Phasellus fermentum convallis ligula. Donec luctus aliquet odio. Etiam ligula"
+	},
+	{
+		"id": "LGL04DUX9HY",
+		"name": "egestas ligula.",
+		"description": "Etiam ligula tortor, dictum eu, placerat eget, venenatis a, magna.",
+		"latitude": "-29.60357",
+		"longitude": "48.90323",
+		"profesorEmail": "nec.ligula@pharetraQuisqueac.org",
+		"price": "8",
+		"likes": 10,
+		"tags": "Nunc pulvinar arcu et pede. Nunc sed orci"
+	},
+	{
+		"id": "KWM48CMG4ZL",
+		"name": "vestibulum. Mauris",
+		"description": "nec mauris blandit mattis. Cras eget nisi dictum augue malesuada",
+		"latitude": "56.11831",
+		"longitude": "7.99344",
+		"profesorEmail": "at.augue.id@egestasAliquamnec.edu",
+		"price": "12",
+		"likes": 7,
+		"tags": "pharetra nibh. Aliquam ornare, libero at"
+	},
+	{
+		"id": "EDE65MUY4AV",
+		"name": "at augue",
+		"description": "eleifend vitae, erat. Vivamus nisi. Mauris nulla. Integer urna. Vivamus",
+		"latitude": "28.934",
+		"longitude": "176.13989",
+		"profesorEmail": "bibendum.Donec.felis@tempordiamdictum.com",
+		"price": "14",
+		"likes": 5,
+		"tags": "ipsum leo elementum sem, vitae aliquam eros"
+	},
+	{
+		"id": "WNK21QXM6QC",
+		"name": "Nullam vitae",
+		"description": "arcu. Aliquam ultrices iaculis odio. Nam interdum enim non nisi.",
+		"latitude": "-31.6523",
+		"longitude": "44.51469",
+		"profesorEmail": "faucibus@acurnaUt.com",
+		"price": "10",
+		"likes": 6,
+		"tags": "porttitor interdum. Sed auctor odio"
+	},
+	{
+		"id": "UQY68ZXI9VZ",
+		"name": "non, cursus",
+		"description": "orci luctus et ultrices posuere cubilia Curae; Phasellus ornare. Fusce",
+		"latitude": "-54.99818",
+		"longitude": "126.96556",
+		"profesorEmail": "habitant@maurisut.net",
+		"price": "8",
+		"likes": 3,
+		"tags": "vel, convallis in, cursus et, eros. Proin ultrices."
+	}]
+

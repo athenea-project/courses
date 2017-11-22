@@ -11,19 +11,7 @@ public interface CourseRepository extends MongoRepository<Course, String> {
     public List<Course> findByNameLike(String name);
     public List<Course> findByProfesorEmail(String profesor);
     public List<Course> findByTags(String tag);
-    
-    
+    // public void insertCourse(String);
 
-
-    /* TODO: 
-    *   find by all
-    *
-    *
-    *
-    *
-    *
-    *
-    *
-    */
 
 }
