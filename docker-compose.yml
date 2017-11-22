@@ -4,6 +4,7 @@ version: '2'
 services:
 
     mongodb:
+            restart: always
             image: mongo:latest
             container_name: "mongodb"
             volumes:
@@ -17,7 +18,7 @@ services:
       restart: always
       image: tomcat
       ports:
-        - "8080:8080"
+        - "8080:8090"
       volumes:
         - ../courses/target/courses-microservice-0.0.1-SNAPSHOT.war:/usr/local/tomcat/webapps/courses-microservice.war
       links:
