@@ -11,7 +11,8 @@ public interface CourseRepository extends MongoRepository<Course, String> {
     public List<Course> findByNameLike(String name);
     public List<Course> findByProfesorEmail(String profesor);
     public List<Course> findByTags(String tag);
-    // public void insertCourse(String);
-
+    public List<Course> findByPriceBetween(int from, int to);    
+   // @Query(value = "{ 'latitude' : {$gte : ?0, $lte: ?1 } $and 'longitude' : {$gte : ?2, $lte: ?3}}")
+    public List<Course> findByLatitudeBetweenAndByLongitudeBetween(int fromLat, int toLat, int fromLon, int toLon);
 
 }
