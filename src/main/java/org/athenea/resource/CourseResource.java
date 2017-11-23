@@ -54,7 +54,7 @@ public class CourseResource {
    * Get all courses for a tag
    *
    * @param tag
-   * @return a User object
+   * @return a course list
    */
   @GET
   @Produces(MediaType.APPLICATION_JSON)
@@ -66,6 +66,43 @@ public class CourseResource {
   public List<Course> getCourseByTag(@HeaderParam("tag") String tag) {
 
     return courseRepo.findByTags(tag);
+  }
+
+  /**
+   * Get all courses for a tag
+   *
+   * @param from price start
+   * @param to price limit
+   * @return a course list 
+   */
+  @GET
+  @Produces(MediaType.APPLICATION_JSON)
+  @Path("/price")
+  @ApiResponses(value = {@ApiResponse(code = 500, message = "Error when connecting to server."),
+      @ApiResponse(code = 404, message = "No courses found")})
+  @ApiOperation(value = "Returns all courses for a price range.",
+      response = Course.class)
+  public List<Course> getCoursesInPriceRange(@HeaderParam("from") int from, @HeaderParam("to") int to) {
+
+    return courseRepo.findByPriceBetween(from, to);
+  }
+  /**
+   * Get all courses for a tag
+   *
+   * @param from price start
+   * @param to price limit
+   * @return a course list 
+   */
+  @GET
+  @Produces(MediaType.APPLICATION_JSON)
+  @Path("/price")
+  @ApiResponses(value = {@ApiResponse(code = 500, message = "Error when connecting to server."),
+      @ApiResponse(code = 404, message = "No courses found")})
+  @ApiOperation(value = "Returns all courses for a price range.",
+      response = Course.class)
+  public List<Course> getCoursesInlocation(@HeaderParam("fromLat") int fromLat, @HeaderParam("toLat") int toLat, @HeaderParam("fromLon") int fromLon, @HeaderParam("toLon") int toLon) {
+
+    return courseRepo.findByLatitudeBetweenAndByLongitudeBetween(fromLat, toLat, fromLon, toLon);
   }
 
   @POST
